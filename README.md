@@ -1,8 +1,3 @@
-![logo](./app/assets/images/readme/logo.png)
-
-<a href="https://www.buymeacoffee.com/inoda" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
-
 ## About
 
 In a nutshell: a private budgeting tool that can be self-hosted.
@@ -11,8 +6,6 @@ This project is an attempt to understand and control my own
 spending better without giving my banking/financial info
 to a 3rd party. The app is meant to be used with 1 login, and
 you can host easily your own instance.
-
-The app was designed by [Iana Noda](https://iananoda.com).
 
 ## Features
 
@@ -41,13 +34,6 @@ The CSV import lets you flexibly import expenses from bank exports.
 
 ![import](./app/assets/images/readme/csv_import.png)
 
-#### Fun and mobile friendly
-OnTrack has a light and fun voice that makes it a
-pleasure to use. The entire app is also mobile
-friendly.
-
-![voice](./app/assets/images/readme/voice.png)
-
 ## Installation
 - [Install with Homebrew](docs/homebrew_install.md)
 - [Install on Ubuntu 16.04+](docs/ubuntu_install.md)
@@ -63,12 +49,3 @@ I'd recommend using [Heroku](https://heroku.com) since it's super simple (and fr
 deploy a Rails app. Keep it awake with my [Heroku Pinger](https://github.com/inoda/heroku-pinger)!
 Once your instance is deployed, do the "Creating a user" steps
 above after [spinning up Heroku's console](https://devcenter.heroku.com/articles/heroku-dashboard#application-overview).
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/inoda/ontrack/tree/master)
-
-## Usage and feedback
-Feel free to use this however you'd like! If you use this, credit
-would be nice but I don't really care that much. I'm primarily maintaining
-this for my own use cases. But...if you have features you'd like to see built, or changes
-that you think should be made, please open issues on this repo and tag me in them!
-I'd love to improve the tool from your feedback.
